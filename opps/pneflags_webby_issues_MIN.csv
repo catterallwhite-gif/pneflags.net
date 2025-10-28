@@ -1,0 +1,27 @@
+ID,Title,Labels,Milestone,Owner,Priority
+G-01,Canonical domain & sitemap,"SEO,P0",M1 – Weeks 1–2,B,P0
+G-02,"Footer identity, privacy & cookies","Content,P1",M1 – Weeks 1–2,F+C,P1
+G-03,Global navigation consistency (labels + single <nav>),"IA,Content,P0",M1 – Weeks 1–2,U+F+C,P0
+G-04,Visible focus states & keyboard operability,"A11y,P0",M1 – Weeks 1–2,F+A11y,P0
+G-05,Copy proofing (UK locale),"Content,P0",M1 – Weeks 1–2,C,P0
+G-06,Publish privacy & cookies pages,"Content,P1",M1 – Weeks 1–2,C+B,P1
+A-01,Alt text overhaul,"A11y,P0",M1 – Weeks 1–2,U+C+F,P0
+A-02,"Headings & landmarks (one <h1>, logical outline, <main>)","A11y,P0",M1 – Weeks 1–2,F,P0
+A-03,"Forms: labels, error summary (aria-live), consent","A11y,Forms,P0",M1 – Weeks 1–2,F+C,P0
+A-04,Target size ≥44×44 & drag alternatives,"A11y,P1",M1 – Weeks 1–2,F,P1
+A-05,Media accessibility (captions/transcripts),"A11y,P1",M1 – Weeks 1–2,F+C,P1
+P-01,"Image optimisation pipeline (AVIF/WebP, srcset, hero ≤200KB)","Performance,P0",M2 – Weeks 3–4,F,P0
+P-02,"CSS/JS diet (inline critical CSS ≤14KB, defer non-critical JS)","Performance,P1",M2 – Weeks 3–4,F,P1
+P-03,"HTTP hints & third‑party hygiene (preload hero/font, defer 3P)","Performance,P1",M2 – Weeks 3–4,F,P1
+P-04,Custom 404 page + log 4xx/5xx,"Performance,P2",M3 – Weeks 5–6,F+B,P2
+C-01,Donate CTA system (primary/secondary + sticky mobile),"Content,IA,P0",M2 – Weeks 3–4,U+F,P0
+C-02,Impact copy per donation tier,"Content,P1",M2 – Weeks 3–4,C,P1
+C-03,Trust elements near CTAs (FSA/FAN + fees),"Content,P1",M2 – Weeks 3–4,U+C,P1
+C-04,Share‑ready social cards (OG/Twitter),"SEO,Content,P1",M2 – Weeks 3–4,F+C,P1
+H-01,"Home hero content pass (tight subheadline, primary Donate)","Content,P1",M1 – Weeks 1–2,C+U,P1
+H-02,Home: single nav landmark,"A11y,P0",M1 – Weeks 1–2,F,P0
+S-01,Support form: UK locale (Postcode/United Kingdom/GBP),"Forms,P0",M1 – Weeks 1–2,F,P0
+S-02,Support: accessible errors & consent text,"Forms,A11y,P0",M1 – Weeks 1–2,F+C,P0
+S-03,Support: fix/remove video placeholder,"Content,A11y,P1",M1 – Weeks 1–2,F+C,P1
+G-01-Gallery,Gallery: responsive grid + keyboard lightbox with captions,"Gallery,A11y,P1",M2 – Weeks 3–4,F,P1
+G-02-Gallery,Gallery images: apply optimisation pipeline + alt,"Gallery,Performance,P1",M2 – Weeks 3–4,F,P1
