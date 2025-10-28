@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+
+<html><head><meta charset="utf-8"/><meta content="0;url=./" http-equiv="refresh"/><link href="/site-tweaks.css" rel="stylesheet"/><meta content="PNE Flags — Community funded tifos, displays, and flags at Deepdale." name="description"/><link href="/favicon.ico" rel="icon" type="image/x-icon"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/></head><body><nav aria-label="Primary" class="cc-nav"><button aria-controls="nav-links" aria-expanded="false" class="cc-nav__toggle">Menu</button><div class="cc-nav__links" id="nav-links"><a href="/index.html">Home</a> <a href="/Gentry-Tifo.html">Gentry Tifo</a> <a href="/Gallery.html">Gallery</a> <a href="/Support-us.html">Donate</a> <a href="/About.html">About</a> <a href="/Get-in-touch.html">Contact</a></div></nav><script data-cc="nav-toggle">document.addEventListener('click', (e) => {
+  const btn = e.target.closest('.cc-nav__toggle');
+  if (!btn) return;
+  const nav = btn.closest('.cc-nav');
+  const expanded = nav.getAttribute('aria-expanded') === 'true';
+  nav.setAttribute('aria-expanded', String(!expanded));
+});</script></body></html>
